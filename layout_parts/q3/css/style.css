@@ -2,4 +2,57 @@
 
 /* 回答はここに書いてね */
 
+.box {
+  margin-top: 20px;
+}
+
+.q3_contents {
+  width: 100%;
+  position: relative;
+  margin: 0 auto;
+}
+
+table {
+  position: absolute;
+  text-align: center;
+}
+
+table th,table td {
+  padding: 10px 0;
+  border: solid #dedede 1px;
+}
+
+table th {
+  font-size: 18px;
+  line-height: 26px;
+  background-color: #2244aa;
+  color: white;
+}
+
+table td {
+  font-size: 16px;
+  line-height: 22px;
+  background-color: #white;
+  color: black;
+}
+
+tr:nth-child(odd){
+  background-color: #ecf1f2;
+}
+
+tr:last-child{
+  border-top: dashed #000 2px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
 /* 回答はここに書いてね */
