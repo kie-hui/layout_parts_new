@@ -7,11 +7,11 @@
   clear: both;
 } 
 
-.box{
+.box {
   margin-top: 20px;
 }
 
-.q2_contents_clearfix{
+.q2_contents {
   width: 940px;
   background-color: #eff3f4;
   margin: 0 auto;
@@ -19,32 +19,38 @@
   box-sizing: border-box;
 }
 
-.ballon{
+.ballon {
   margin-right: 20px;
   margin-bottom: 10px;
   float: left;
 }
 
-.q2_text_top{
+.q2_text {
   font-size: 18px;
   line-height: 22px;
+  word-break: break-all;
 }
 
-.q2_text_left{
-  font-size: 18px;
-  line-height: 22px;
-}
-
-.lights{
-  margin: 10px 0 10px 20px;
+.lights {
+  margin-left: 20px;
+  margin-bottom: 10px;
   float: right;
 }
 
-.q2_text_bottom{
-  font-size: 18px;
-  line-height: 22px;
+img {
+  vertical-align: top; /*下の余白が消えない*/
 }
 
 
 
 /* 回答はここに書いてね */
+
+
+/*
+##q2
+
+1.改行方法
+
+2.下の写真marginが違う
+
+*/
