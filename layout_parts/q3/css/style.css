@@ -51,11 +51,11 @@ tbody tr:last-child {
 /*
 
 ##
-1.table
-  div class=
 
-2.class名 th{
+1.class名 th{ ←このように記入する。
+  -記入しなおしました。
 
-3.lastchild は、tbody thにつける
+2.last-childは、tbody trにつける
+  -付け加えました。
 
 */
