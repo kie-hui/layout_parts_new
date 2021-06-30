@@ -2,16 +2,16 @@
 
 /* 回答はここに書いてね */
 
-.title {
-  position: relative;
-}
 
-.title::before {
-  position: absolute;
+
+.nine::after {
+  content:attr(title);
   width: 100px;
   height: 100px;
-  background-color:#2b69a3;
+  background-color: #2b69a3;
 }
+
+
 
 .box {
   margin-top: 20px;
@@ -98,15 +98,9 @@
   width: 100px;
   height: 100px;
   background-color: #de70cf;
-  z-index: 80;
+  z-index: ;
   left: 120px;
   top: 120px;
-}
-
-.nine {
-  width: 100px;
-  height: 100px;
-  background-color: #2b69a3;
 }
 
 
