@@ -17,24 +17,24 @@
   border: solid #dedede 1px;
 }
 
-th {
+.graph th {
   font-size: 18px;
   line-height: 26px;
   background-color: #2244aa;
   color: white;
 }
 
-tbody td {
+.graph tbody td {
   font-size: 16px;
   line-height: 22px;
   color: black;
 }
 
-tbody tr:nth-child(even) {
+.graph tbody tr:nth-child(even) {
   background-color: #ecf1f2;
 }
 
-tbody tr:last-child {
+.graph tbody tr:last-child {
   border-top: dashed #000 2px;
 }
 
