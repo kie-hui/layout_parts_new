@@ -18,17 +18,17 @@
   background-color: #ECF1F2;
 }
 
-.top_box , .bottom_box {
+.content_box {
   width: 100%;
   display: table;
   margin-top: 20px;
 }
 
-.top_box {
+.content_box:first-child {
   margin-top: 0;
 }
 
-.cell_pink, .cell_purple, .cell_blue, .cell_yellow, .cell_red, .cell_green {
+.cell {
   display: table-cell;
   padding: 20px 0;
 }

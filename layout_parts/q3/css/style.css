@@ -17,24 +17,24 @@
   border: solid #dedede 1px;
 }
 
-.top th ,.body th {
+th {
   font-size: 18px;
   line-height: 26px;
   background-color: #2244aa;
   color: white;
 }
 
-.body td {
+tbody td {
   font-size: 16px;
   line-height: 22px;
   color: black;
 }
 
-.body tr:nth-child(even) {
+tbody tr:nth-child(even) {
   background-color: #ecf1f2;
 }
 
-.body tr:last-child {
+tbody tr:last-child {
   border-top: dashed #000 2px;
 }
 

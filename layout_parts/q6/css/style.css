@@ -64,7 +64,12 @@ p.flex {
   position: relative;
 }
 
-p.q6__box__inner.kotei {
+p.q6__box__inner{
+  position: absolute;
+  text-align: center;
+}
+
+p.q6__box__inner.left {
   top: 0;
   right: 0;
   bottom: 0;
@@ -72,20 +77,16 @@ p.q6__box__inner.kotei {
   margin: auto;
 }
 
-.q6__box__inner.kahen {
+.q6__box__inner.right {
   top: 50%;
   left: 50%;
   -webkit-transform: translate(-50%,-50%);
   transform: translate(-50%,-50%);
 }
 
-p.q6__box__inner {
-  position: absolute;
-  display: inline-block;
-  width: 110px;
-  line-height: 30px;
-  padding: 10px;
-}
+
+
+
 
 
 /* 回答はここに書いてね */

@@ -11,6 +11,7 @@
   width: 500px;
   height: 500px;
   background-color: #ECF1F2;
+  font-size: 30px;
   margin: 0 auto;
   position: relative;
 }
@@ -23,63 +24,63 @@
   height: 100px;
 }
 
-.q5_box.one {
+.one {
   background-color: #ffefd3;
   z-index: 10;
   top: 40px;
   left: 200px;
 }
 
-.q5_box.two {
+.two {
   background-color: #7084de;
   z-index: 20;
   left: 280px;
   top: 120px;
 }
 
-.q5_box.three {
+.three {
   background-color: #d0ecea;
   z-index: 30;
   left: 360px;
   top: 200px;
 }
 
-.q5_box.four {
+.four {
   background-color: #8b7a5b;
   z-index: 40;
   left: 280px;
   top: 280px;
 }
 
-.q5_box.five {
+.five {
   background-color: #9fd6b2;
   z-index: 50;
   left: 200px;
   top: 360px;
 }
 
-.q5_box.six {
+.six {
   background-color: #fffee4;
   z-index: 60;
   left: 120px;
   top: 280px;
 }
 
-.q5_box.seven {
+.seven {
   background-color: #deae70;
   z-index: 70;
   left: 40px;
   top: 200px;
 }
 
-.q5_box.eight {
+.eight {
   background-color: #de70cf;
   z-index: 80;
   left: 120px;
   top: 120px;
 }
 
-.q5_box.eight::after {
+.eight::after {
   position: absolute;
   top: 0;
   right: 0;
@@ -89,15 +90,11 @@
   content: "";
 }
 
-.q5_box.nine {
-  width: 100px;
-  height: 100px;
+.nine {
   background-color: #2b69a3;
   position: fixed;
-  top: 0;
-  left: 0;
-  margin-top: 10px;
-  margin-left: 10px;
+  top: 10px;
+  left: 10px;
 }
 
 
