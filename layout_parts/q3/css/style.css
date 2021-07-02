@@ -17,45 +17,25 @@
   border: solid #dedede 1px;
 }
 
-thead {
+.top th ,.body th {
   font-size: 18px;
   line-height: 26px;
   background-color: #2244aa;
   color: white;
 }
 
-tbody {
+.body td {
   font-size: 16px;
   line-height: 22px;
-  background-color: white;
   color: black;
 }
 
-tbody th {
-  background-color: #2244aa;
-  color: white;
-}
-
-tbody tr:nth-child(even) {
+.body tr:nth-child(even) {
   background-color: #ecf1f2;
 }
 
-tbody tr:last-child {
+.body tr:last-child {
   border-top: dashed #000 2px;
 }
 
 
-
-/* 回答はここに書いてね */
-
-/*
-
-##
-
-1.class名 th{ ←このように記入する。
-  -記入しなおしました。
-
-2.last-childは、tbody trにつける
-  -付け加えました。
-
-*/
