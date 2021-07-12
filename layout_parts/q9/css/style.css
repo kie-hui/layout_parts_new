@@ -14,21 +14,17 @@
   border-radius: 30px;
 }
 
-.text_box::before {
+.text_box::before , .text_box::after {
   position: absolute;
   content: "";
   border: 20px solid transparent;
   border-top: 20px solid #222;
-  right: 80%;
+  right: 87%;
   bottom: -30%;
 }
 
 .text_box::after {
-  position: absolute;
-  content: "";
-  border: 20px solid transparent;
   border-top: 20px solid #fff;
-  right: 80%;
   bottom: -25%;
 }
 
