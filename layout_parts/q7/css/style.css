@@ -2,4 +2,121 @@
 
 /* 回答はここに書いてね */
 
+.clearfix::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.float {
+  box-sizing: border-box;
+  width: 225px;
+  font-size: 16px;
+  float: left;
+}
+
+.float:last-child {
+  margin-left: 30px;
+}
+
+
+
+.table_box {
+  display: table;
+}
+
+.long {
+  padding-left: 50px;
+}
+
+.short, .long {
+  display: table-cell;
+  width: 225px;
+  vertical-align: middle;
+}
+
+.table_text {
+  font-size: 16px;
+}
+
+
+
+.inline-box {
+  text-align: left;
+  font-size: 0; /*親要素を0にするとカラム落ちしない*/
+}
+
+.inline-text {
+  display: inline-block;
+  vertical-align: middle;
+  width: 225px;
+  font-size: 16px;
+  box-sizing: border-box;
+}
+
+.inline-text:last-child {
+  margin-left: 50px;
+}
+
+
+
+.flex-box {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-end;
+}
+
+.flex-text {
+  display: inline-block;
+  width: 225px;
+  font-size: 16px;
+  box-sizing: border-box; 
+}
+
+
+
+
+
+
+.margin_full {
+  font-size: 0;
+}
+
+.margin_box.left {
+  display: inline-block;
+  vertical-align: middle;
+  width: 300px;
+  box-sizing: border-box;
+}
+
+.margin_box.right {
+  width: 100%;
+  box-sizing: border-box;
+  display: inline-block;
+  vertical-align: middle;
+  margin-left: -300px;
+  padding-left: 350px;
+}
+
+.margin_text {
+  font-size: 16px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* 回答はここに書いてね */

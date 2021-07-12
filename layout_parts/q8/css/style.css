@@ -2,4 +2,102 @@
 
 /* 回答はここに書いてね */
 
+  /*transition-property 適用
+  transition-duration ホバー後のアクション
+  transition-delay 開始までの遅延
+  transition-timing-function */
+
+.transition_q8 {
+  position: relative;
+  margin: 0 auto;
+  width: 500px;
+  height: 333px;
+  overflow: hidden; /*はみ出す要素を非表示*/
+  cursor: pointer; /*リンクカーソルが表示*/
+}
+
+.transition_q8 img {
+  transition: all 0.5s;
+  /*transition＝連続した動きをなめらかに変化*/
+}
+
+.transition_q8:hover img {
+  transform: scale(1.5); 
+  /*transform=回転・拡大縮小・移動*/
+  /*XY軸の拡大縮小*/
+}
+
+.q8_text_box {
+  position: absolute;
+  transition: all 0.5s;
+  width: 100%;
+  height: 100%;
+  bottom: -100%;
+  background: linear-gradient(rgba(0,0,0,0),rgba(0,0,0,8));
+}
+
+.transition_q8:hover .q8_text_box {
+  bottom: 0%;
+}
+
+.q8_text {
+  position: absolute;
+  box-sizing: border-box;
+  width: 100%;
+  bottom: 0;
+  padding: 20px;
+  color: #ddd;
+  font-size: 16px;
+  line-height: 16px;
+  word-break: break-all;
+}
+
+
+
+
+.circle_q8 { 
+  margin: 0 auto;
+  width: 100px;
+  height: 100px;
+  border: 10px solid #ecf1f2;
+  border-radius: 50%;
+  border-top-color: #00bcd4;;
+  animation: spin 1.1s linear infinite;/*ループ*/
+}
+
+@keyframes spin { 
+  0% {  /*アニメーション開始時*/
+   transform: rotate(0deg);   /*変形:回転(角度)*/
+  }
+  100% {  /*アニメーション終了時*/
+    transform: rotate(360deg);
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* 回答はここに書いてね */
